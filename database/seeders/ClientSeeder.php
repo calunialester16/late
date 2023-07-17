@@ -16,31 +16,14 @@ class ClientSeeder extends Seeder
         Client::factory(20)->create();
         $cl = [
             [
-                'last_name' => 'Lenteria',
-                'first_name' => 'Benjie',
-                'middle_name' => 'Basio',
-                'address' => 'Pob. Centro, Clarin, Bohol',
-                'birth_date' => '1979-10-02',
-                'phone_number' => '09090892350',
-                'email' => 'benjielenteria@yahoo.com'
-            ],
-            [
-                'last_name' => 'Lentrix',
-                'first_name' => 'Hawkman',
-                'middle_name' => 'Machiacode',
-                'address' => 'Pob. Centro, Clarin, Bohol',
-                'birth_date' => '1979-10-02',
-                'phone_number' => '09090892350',
-                'email' => 'hawkmanlentrix@gmail.com'
-            ],
-            [
-                'last_name' => 'Iphitech',
-                'first_name' => 'Bench',
-                'middle_name' => 'Developer',
-                'address' => 'Pob. Centro, Clarin, Bohol',
-                'birth_date' => '1979-10-02',
-                'phone_number' => '09090892350',
-                'email' => 'iphitech.lenteria.benjie@gmail.com'
+                'last_name' => 'Calunia',
+                'first_name' => 'Lester',
+                'middle_name' => 'Cosinero',
+                'address' => 'Guiwanon, Tubigon, Bohol',
+                'birth_date' => '2002-02-12',
+                'phone_number' => '09817947036',
+                'email' => 'calunialester07@gmail.com',
+                'initial_deposit' => 50000,
             ],
         ];
 
